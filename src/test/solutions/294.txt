@@ -1,0 +1,1 @@
+func,foo,(,),{,y,:=,100,;,return,y,},<EOF>

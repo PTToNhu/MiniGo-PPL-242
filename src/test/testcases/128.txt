@@ -1,0 +1,2 @@
+/*comment
+int a;*/int a;*/

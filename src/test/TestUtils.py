@@ -53,6 +53,7 @@ class TestLexer:
     @staticmethod    
     def printLexeme(dest,lexer,char):
         tok = lexer.nextToken()
+        # print(lexer.symbolicNames[tok.type], tok.text)
         if tok.type != Token.EOF:
             dest.write(tok.text+char)
             TestLexer.printLexeme(dest,lexer,char)

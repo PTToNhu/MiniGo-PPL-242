@@ -1,0 +1,4 @@
+func Add(){
+            str1 := "Hello";
+            }
+            
